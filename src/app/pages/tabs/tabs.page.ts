@@ -12,4 +12,8 @@ export class TabsPage implements OnInit {
   ngOnInit() {
   }
 
+  tab2Selected() {
+    console.log('My tab was selected!');
+  }
+
 }
